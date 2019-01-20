@@ -46,6 +46,7 @@ color: #FDD457;
 
 }
 
+/* Buttons at the top */
 
 
 .titlebar-insights {
@@ -81,6 +82,7 @@ text-align: center;
 
 color: #FFFFFF;
 }
+ /* Call to Action Buttons */
 
 .CTA1 {
   position: absolute;
@@ -103,6 +105,7 @@ font-size: 25.1387px;
 border: 1px solid #82757B;
 
 }
+/* Section 2 */
 
 .how-it-works {
   background-color: white;
@@ -147,4 +150,102 @@ color: #000000;
 
 Paste Vision
 
+}
+  
+  /* Writing_Hand_Emoji_Icon_ios10_large */
+.emoji-writing {
+
+position: absolute;
+font-size: 50px;
+left: 127px;
+top: 300px;
+}
+
+.emoji-writing-descrip {
+  position: absolute;
+width: 479px;
+height: 105px;
+left: calc(50% - 479px/2 - 272.5px);
+top: 325px;
+
+font-family: Roobert;
+font-style: normal;
+font-weight: normal;
+line-height: 33px;
+font-size: 24px;
+
+color: #454B57;
+}
+
+/* Woman_Saying_Hi_Emoji_Icon_ios10 */
+.emoji-hey {
+position: absolute;
+font-size: 50px;
+left: 757px;
+top: 300px;
+
+}
+
+.emoji-hey-descrip {  
+position: absolute;
+width: 479px;
+height: 105px;
+left: calc(50% - 509px/2 + 380.5px);
+top: 325px;
+
+font-family: Roobert;
+font-style: normal;
+font-weight: normal;
+line-height: 33px;
+font-size: 24px;
+
+color: #454B57;
+}
+
+/* Woman_Saying_No_Emoji_Icon_ios10_large */
+.emoji-no {
+position: absolute;
+font-size: 50px;
+left: 127px;
+top: 475px;
+}
+
+.emoji-no-descrip {
+position: absolute;
+width: 479px;
+height: 98px;
+left: calc(50% - 479px/2 - 272.5px);
+top: 494px;
+
+font-family: Roobert;
+font-style: normal;
+font-weight: normal;
+line-height: 33px;
+font-size: 24px;
+
+color: #454B57;
+}
+
+/* Information_Desk_Woman_Emoji_Icon_ios10_large */
+.emoji-whatsup {
+position: absolute;
+font-size: 50px;
+left: 757px;
+top: 475px;
+}
+
+.emoji-whatsup-descrip {
+position: absolute;
+width: 483px;
+height: 71px;
+left: calc(50% - 483px/2 + 367.5px);
+top: 494px;
+
+font-family: Roobert;
+font-style: normal;
+font-weight: normal;
+line-height: 33px;
+font-size: 24px;
+
+color: #454B57;
 }
