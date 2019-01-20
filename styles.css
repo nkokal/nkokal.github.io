@@ -249,3 +249,32 @@ font-size: 24px;
 
 color: #454B57;
 }
+
+/* Section 3 */
+
+.text-data {
+  background-color: #FDD457;
+position: absolute;
+width: 1450px;
+height: 750px;
+left: 0px;
+top: 1547px;
+
+}
+
+.title-section3 {
+position: absolute;
+width: 830px;
+height: 104px;
+left: calc(50% - 830px/2 - 11px);
+
+font-family: Roobert;
+font-style: normal;
+font-weight: 600;
+line-height: 86px;
+font-size: 80px;
+text-align: center;
+
+color: #000028;
+
+}
