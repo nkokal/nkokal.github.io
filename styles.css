@@ -275,14 +275,20 @@ color: #000028;
 }
 
 textarea {
- width: 100%;
- top: 750px;
+ position: absolute;
+ width: 90%;
+ top: 250px;
+ left: 70px;
   height: 400px;
   padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
+
+background: #FFFFFF;
+border: 7.5px solid #FDD457;
+box-sizing: border-box;
+border-radius: 25px;
+
+
+ color: #454B57;
   font-size: 25px;
   resize: none;
   font-family: Helvetica;
