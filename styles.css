@@ -6,15 +6,12 @@
 
 html,body{
   margin: 0;
-  padding: 0
+  padding: 0;
   }
-.intro {
-  padding: 10px;
-  
+.intro {  
 width: 1440px;
 height: 856px;
 left: 0px;
-top: -6px;
   
 }
 
@@ -35,7 +32,7 @@ height: 86px;
 left: calc(50% - 619px/2 - 266.5px);
 top: 336px;
 
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: 600;
 line-height: 86px;
@@ -56,7 +53,7 @@ height: 42px;
 left: 620px;
 top: 29px;
 
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -73,7 +70,7 @@ height: 42px;
 left: 804px;
 top: 29px;
 
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -97,7 +94,7 @@ top: 29px;
   cursor: pointer;
 background: #FDD457;
 border-radius: 6px;
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: bold;
 line-height: normal;
@@ -108,11 +105,10 @@ border: 1px solid #82757B;
 /* Section 2 */
 
 .how-it-works {
-  background-color: white;
+background-color: white;
 position: absolute;
 width: 1440px;
 height: 694px;
-left: 0px;
 top: 853px;
 
 }
@@ -122,7 +118,7 @@ top: 853px;
 width: 583px;
 height: 104px;
 left: calc(50% - 583px/2 - 16.5px);
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: 600;
 line-height: 86px;
@@ -139,7 +135,7 @@ width: 1348px;
 height: 114px;
 left: 46px;
 top: 150px;
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -168,7 +164,7 @@ height: 105px;
 left: calc(50% - 479px/2 - 272.5px);
 top: 325px;
 
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
 line-height: 33px;
@@ -193,7 +189,7 @@ height: 105px;
 left: calc(50% - 509px/2 + 380.5px);
 top: 325px;
 
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
 line-height: 33px;
@@ -217,7 +213,7 @@ height: 98px;
 left: calc(50% - 479px/2 - 272.5px);
 top: 494px;
 
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
 line-height: 33px;
@@ -241,7 +237,7 @@ height: 71px;
 left: calc(50% - 483px/2 + 367.5px);
 top: 494px;
 
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
 line-height: 33px;
@@ -255,7 +251,7 @@ color: #454B57;
 .text-data {
   background-color: #FDD457;
 position: absolute;
-width: 1450px;
+width: 1440px;
 height: 750px;
 left: 0px;
 top: 1547px;
@@ -268,7 +264,7 @@ width: 830px;
 height: 104px;
 left: calc(50% - 830px/2 - 11px);
 
-font-family: Roobert;
+font-family: Helvetica;
 font-style: normal;
 font-weight: 600;
 line-height: 86px;
@@ -276,18 +272,21 @@ font-size: 80px;
 text-align: center;
 
 color: #000028;
-
 }
 
-.textarea {
-width: 100%;
-  height: 150px;
-  top: 150px;
+textarea {
+ width: 100%;
+ top: 750px;
+  height: 400px;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
-  font-size: 16px;
+  font-size: 25px;
   resize: none;
+  font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+line-height: 27px;
 }
