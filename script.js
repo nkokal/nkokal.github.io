@@ -26,8 +26,8 @@ class API {
         callback(xmlHttp.responseText);
       }
     }
-    xmlHttp.setRequestHeader("Content-Type", "application/json");
     xmlHttp.open("POST", `${this.url}${path}`, true); // true for asynchronous 
+    xmlHttp.setRequestHeader("Content-Type", "application/json");
     xmlHttp.send(body);
   }
 
