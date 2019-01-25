@@ -281,18 +281,12 @@ textarea {
  left: 70px;
   height: 400px;
   padding: 12px 20px;
-
 background: #FFFFFF;
 border: 7.5px solid #FDD457;
 box-sizing: border-box;
 border-radius: 25px;
-
-
- color: #454B57;
   font-size: 25px;
-  resize: none;
   font-family: Helvetica;
-font-style: normal;
-font-weight: normal;
-line-height: 27px;
+
+
 }
