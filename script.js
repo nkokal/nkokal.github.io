@@ -38,5 +38,5 @@ const api = new API();
 function submitTextData() {
   const payload = { text: document.querySelector(".textInputBox").value };
 
-  api.post("/data", JSON.stringify(payload));
+  api.post("/data", payload);
 }
