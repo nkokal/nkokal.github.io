@@ -245,7 +245,7 @@ color: #454B57;
 .text-data {
 background-color: #FDD457;
 width: 100%;
-height: 575px;
+height: 675px;
 }
 
 .title-section3 {
@@ -273,4 +273,45 @@ border-radius: 25px;
 font-size: 25px;
 font-family: Helvetica;
 color: #000028;
+}
+
+.text-data-cta
+{
+width: 273px;
+height: 67px;
+margin-left: 40%;
+margin-top: 30px;
+border: none;
+color: black;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+background: white;
+border-radius: 6px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 25.1387px;
+border: 1px solid #82757B;
+}
+
+/* Section 4 */
+
+.insights {
+background-color: white;
+width: 100%;
+height: 575px;
+}
+
+.title-section4 {
+margin-top: 0; 
+padding: 20px; 
+font-family: Helvetica;
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+text-align: center;
+color: #000028;
+padding: 50px;
 }
