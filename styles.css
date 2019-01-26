@@ -9,19 +9,16 @@ html,body{
   padding: 0;
   }
 .intro {  
-width: 1440px;
+width: 100%;
 height: 856px;
 left: 0px;
   
 }
 
 .logo {
- position: absolute;
 width: 221px;
 height: 101px;
 left: 42px;
-top: 21px;
-
 }
 
 /* The Words You Say Matter */
@@ -106,35 +103,25 @@ border: 1px solid #82757B;
 
 .how-it-works {
 background-color: white;
-position: absolute;
-width: 1440px;
-height: 694px;
-top: 853px;
-
+width: 100%;
+overflow: auto;
 }
 
 .title {
-  position: absolute;
-width: 583px;
-height: 104px;
-left: calc(50% - 583px/2 - 16.5px);
+text-align: center;
 font-family: Helvetica;
 font-style: normal;
 font-weight: 600;
 line-height: 86px;
 font-size: 80px;
-text-align: center;
-
 color: #000028;
 
 }
 
 .description {
-  position: absolute;
 width: 1348px;
 height: 114px;
 left: 46px;
-top: 150px;
 font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
@@ -143,150 +130,147 @@ font-size: 36px;
 text-align: center;
 
 color: #000000;
-
-Paste Vision
-
 }
-  
+ 
+
+ /* first container */
+
+.divSquare{
+        width:48.75%; height:200px; margin:4px; float: left;
+    }
+
+    
   /* Writing_Hand_Emoji_Icon_ios10_large */
+.divSquareInception {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+    }
+
 .emoji-writing {
-
-position: absolute;
-font-size: 50px;
-left: 127px;
-top: 300px;
+font-size: 55px;
+margin-top: 8px;
+padding: 3%;
 }
-
 .emoji-writing-descrip {
-  position: absolute;
-width: 479px;
-height: 105px;
-left: calc(50% - 479px/2 - 272.5px);
-top: 325px;
-
+right: 25px;
 font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
-line-height: 33px;
 font-size: 24px;
-
+padding: 4%;
 color: #454B57;
 }
 
-/* Woman_Saying_Hi_Emoji_Icon_ios10 */
-.emoji-hey {
-position: absolute;
-font-size: 50px;
-left: 757px;
-top: 300px;
 
+/* Woman_Saying_Hi_Emoji_Icon_ios10 */
+
+.divSquareInception2
+{
+display: flex;
+flex-direction: row;
+width: 90%;
+margin: 0 auto;
 }
 
-.emoji-hey-descrip {  
-position: absolute;
-width: 479px;
-height: 105px;
-left: calc(50% - 509px/2 + 380.5px);
-top: 325px;
-
+.emoji-hey {
+font-size: 55px;
+margin-top: 8px;
+padding: 3%;
+}
+.emoji-hey-descrip {
+right: 25px;
 font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
-line-height: 33px;
 font-size: 24px;
-
+padding: 4%;
 color: #454B57;
 }
 
 /* Woman_Saying_No_Emoji_Icon_ios10_large */
+.divSquareInception3
+{
+display: flex;
+flex-direction: row;
+width: 90%;
+margin: 0 auto;
+}
+
 .emoji-no {
-position: absolute;
-font-size: 50px;
-left: 127px;
-top: 475px;
+font-size: 55px;
+margin-top: 8px;
+padding: 3%;
 }
 
 .emoji-no-descrip {
-position: absolute;
-width: 479px;
-height: 98px;
-left: calc(50% - 479px/2 - 272.5px);
-top: 494px;
-
+right: 25px;
 font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
-line-height: 33px;
 font-size: 24px;
-
+padding: 4%;
 color: #454B57;
 }
 
 /* Information_Desk_Woman_Emoji_Icon_ios10_large */
+
+.divSquareInception4
+{
+display: flex;
+flex-direction: row;
+width: 90%;
+margin: 0 auto;
+}
+
 .emoji-whatsup {
-position: absolute;
-font-size: 50px;
-left: 757px;
-top: 475px;
+font-size: 55px;
+margin-top: 8px;
+padding: 3%;
 }
 
 .emoji-whatsup-descrip {
-position: absolute;
-width: 483px;
-height: 71px;
-left: calc(50% - 483px/2 + 367.5px);
-top: 494px;
-
+right: 25px;
 font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
-line-height: 33px;
 font-size: 24px;
-
+padding: 4%;
 color: #454B57;
 }
 
 /* Section 3 */
 
 .text-data {
-  background-color: #FDD457;
-position: absolute;
-width: 1440px;
-height: 750px;
-left: 0px;
-top: 1547px;
-
+background-color: #FDD457;
+width: 100%;
+height: 575px;
 }
 
 .title-section3 {
-position: absolute;
-width: 830px;
-height: 104px;
-left: calc(50% - 830px/2 - 11px);
-
+margin-top: 0; 
+padding: 20px; 
 font-family: Helvetica;
 font-style: normal;
 font-weight: 600;
-line-height: 86px;
 font-size: 80px;
 text-align: center;
-
 color: #000028;
+padding: 50px;
 }
 
 textarea {
- position: absolute;
- width: 90%;
- top: 250px;
- left: 70px;
-  height: 400px;
-  padding: 12px 20px;
+margin-top: -50px;
+margin-left: 12%;
+width: 80%;
+height: 300px;
+padding: 12px 20px;
 background: #FFFFFF;
 border: 7.5px solid #FDD457;
 box-sizing: border-box;
 border-radius: 25px;
-  font-size: 25px;
-  font-family: Helvetica;
-
-
+font-size: 25px;
+font-family: Helvetica;
+color: #000028;
 }
