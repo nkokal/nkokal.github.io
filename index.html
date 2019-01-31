@@ -3,6 +3,7 @@
 <head>
 
 	<link rel="stylesheet" href="styles.css">
+
 	<script
 	src="https://static.ada.support/embed.f8b282eb.min.js"
 	integrity="sha384-A0EOe/GwB+wqNjGniuVFup2J8YuMTrTibM487C3K8qHcQkY4J5Ib2PcV9MIXbnxl"
@@ -79,11 +80,19 @@
 
 	<div class="insights">
 		<h1 class= "title-section4">Insights</h1>
-	</div>
+			<h2 class="insight1">What They Care About</h2> 
+			<button id = "close-image" onclick="myFunction()"> <img src="https://i.ibb.co/TbqcHRh/img-356879.png">
+    		</button>  
+		<p id="care"></p>
+		<hr class="line">
 
-</body>
-	<script type="text/javascript">
-	var acmeAdaBot = new AdaChaperone('iris');
-	</script>
+
+	</div>
+	<script> function myFunction() { document.getElementById("care").innerHTML = "Hello World";}
+</script>
+	</body>
+
+	<script type="text/javascript"> var acmeAdaBot = new AdaChaperone('iris'); </script>
 	<script type="text/javascript" src="./script.js"></script>
 </html>
+
