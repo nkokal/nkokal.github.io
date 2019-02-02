@@ -321,7 +321,7 @@ margin-top: -30px;
 padding: 20px; 
 font-family: Helvetica;
 font-style: normal;
-font-weight: 600;
+font-weight: 250;
 font-size: 65px;
 text-align: left;
 color: #000028;
@@ -350,7 +350,7 @@ button {
 }
 
 #care {
-   width: 95%;
+  width: 95%;
   padding: 50px;
   text-align: left;
   margin-top: -100px;
@@ -437,4 +437,12 @@ border: 1px solid #BEBCBC;
   padding: 50px;
   text-align: left;
   margin-top: -100px;
+}
+
+/* Section 4 */
+
+.vision {
+background-color: #FDD457;
+width: 100%;
+height: 1808px;
 }
