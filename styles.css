@@ -10,12 +10,13 @@ html,body{
   }
 .intro {  
 width: 100%;
-height: 856px;
+height: 850px;
 left: 0px;
   
 }
 
 .logo {
+padding: 3%;
 width: 221px;
 height: 101px;
 left: 42px;
@@ -23,13 +24,13 @@ left: 42px;
 
 /* The Words You Say Matter */
 .catchphrase{
-position: absolute;
+  position: absolute;
 width: 619px;
 height: 86px;
 left: calc(50% - 619px/2 - 266.5px);
 top: 336px;
 
-font-family: Helvetica;
+font-family: futura,sans-serif;
 font-style: normal;
 font-weight: 550;
 line-height: 86px;
@@ -50,7 +51,7 @@ height: 42px;
 left: 620px;
 top: 29px;
 
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: 450;
 line-height: normal;
@@ -67,7 +68,7 @@ height: 42px;
 left: 804px;
 top: 29px;
 
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: 450;
 line-height: normal;
@@ -91,7 +92,7 @@ top: 29px;
   cursor: pointer;
 background: #FDD457;
 border-radius: 6px;
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: bold;
 line-height: normal;
@@ -109,7 +110,7 @@ overflow: auto;
 
 .title {
 text-align: center;
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: 450;
 line-height: 86px;
@@ -122,7 +123,7 @@ color: #000028;
 width: 1348px;
 height: 114px;
 left: 46px;
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -155,7 +156,7 @@ padding: 3%;
 }
 .emoji-writing-descrip {
 right: 25px;
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -181,7 +182,7 @@ padding: 3%;
 }
 .emoji-hey-descrip {
 right: 25px;
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -206,7 +207,7 @@ padding: 3%;
 
 .emoji-no-descrip {
 right: 25px;
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -232,7 +233,7 @@ padding: 3%;
 
 .emoji-whatsup-descrip {
 right: 25px;
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -251,7 +252,7 @@ height: 675px;
 .title-section3 {
 margin-top: 0; 
 padding: 20px; 
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: 525;
 font-size: 80px;
@@ -271,7 +272,7 @@ border: 7.5px solid #FDD457;
 box-sizing: border-box;
 border-radius: 25px;
 font-size: 25px;
-font-family: Helvetica;
+font-family: futura, helvetica;
 color: #000028;
 }
 
@@ -288,7 +289,7 @@ font-size: 16px;
 cursor: pointer;
 background: white;
 border-radius: 6px;
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: bold;
 line-height: normal;
@@ -307,7 +308,7 @@ height: 575px;
 .title-section4 {
 margin-top: 0; 
 padding: 20px; 
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: 450;
 font-size: 80px;
@@ -319,7 +320,7 @@ padding: 50px;
 .insight1 {
 margin-top: -30px; 
 padding: 20px; 
-font-family: Helvetica;
+font-family: futura, helvetica;
 font-style: normal;
 font-weight: 250;
 font-size: 65px;
@@ -441,8 +442,39 @@ border: 1px solid #BEBCBC;
 
 /* Section 4 */
 
-.vision {
+.vision-yellow {
 background-color: #FDD457;
 width: 100%;
 height: 1808px;
+}
+
+.vision-white-title {
+top: 15px;    
+max-width: 80%;
+    margin: 1.9rem auto;
+    padding: 1.857142857142857rem 2.142857142857143rem 2.642857142857143rem ;
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    border-radius: 25px;
+    position:relative;
+    top:226px;
+    font-family: Futura;
+font-style: normal;
+font-weight: 450;
+font-size: 80px;
+
+}
+
+.vision-white-body {
+max-width: 80%;
+    margin: 1.9rem auto;
+    padding: 1.857142857142857rem 2.142857142857143rem 2.642857142857143rem ;
+    text-align: center;
+    background-color: white;
+    top:100px;
+    height: 700px;
+    border-radius: 25px;
+    position:relative;
+
 }
