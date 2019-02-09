@@ -1,4 +1,5 @@
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html {
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html 
+{
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -445,36 +446,57 @@ border: 1px solid #BEBCBC;
 .vision-yellow {
 background-color: #FDD457;
 width: 100%;
-height: 1808px;
+height: 1250px;
 }
 
 .vision-white-title {
-top: 15px;    
-max-width: 80%;
-    margin: 1.9rem auto;
-    padding: 1.857142857142857rem 2.142857142857143rem 2.642857142857143rem ;
+    top: 10px;    
+    max-width: 65%;
+    margin: 1rem auto;
+    padding: 1rem 2.14rem 2.64rem ;
     text-align: center;
     background-color: white;
-    height: 200px;
+    height: 100px;
     border-radius: 25px;
     position:relative;
     top:226px;
     font-family: Futura;
-font-style: normal;
-font-weight: 450;
-font-size: 80px;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 80px;
+
 
 }
 
-.vision-white-body {
-max-width: 80%;
-    margin: 1.9rem auto;
+.vision-white-body1 {
+    max-width: 65%;
+    margin: 3rem auto;
     padding: 1.857142857142857rem 2.142857142857143rem 2.642857142857143rem ;
-    text-align: center;
     background-color: white;
     top:100px;
-    height: 700px;
+    height: 600px;
     border-radius: 25px;
     position:relative;
+    font-family: Futura;
+    font-weight: lighter;
+    font-size: 25px;
+}
 
+.lastpara
+{
+  position:relative;
+  font-family: Futura;
+  font-weight: lighter;
+  font-size: 35px;
+  font-family: Futura;
+}
+
+.vision-image
+{
+  display: block;
+  margin: 3rem auto;
+  position: center;
+min-width:100%;
+  border-radius: 15px;
+  
 }
