@@ -121,8 +121,7 @@ color: #000028;
 }
 
 .description {
-width: 1348px;
-height: 114px;
+padding: 2%;
 left: 46px;
 font-family: futura, helvetica;
 font-style: normal;
@@ -445,8 +444,8 @@ width: 100%;
 
 .vision-white-body {
     max-width: 65%;
-    margin:  auto;
-    padding: 1.857142857142857rem 2.142857142857143rem ;
+    margin: auto;
+    padding: 1.857142857142857rem 2.142857142857143rem;
     background-color: white;
     top:50px;
     border-radius: 25px;
@@ -468,4 +467,128 @@ width: 100%;
     position: relative; 
   margin-left: auto;
   margin-right: auto;
+}
+
+/*footer*/
+
+.bg-near-white{
+    background-color:#FDD457;
+}
+
+.pv5-ns{
+        padding-top:4rem;
+        padding-bottom:4rem;
+    }
+
+.pv4{
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+.mw9{
+    max-width:82.5rem;
+}
+
+.center{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.flex{
+    display:flex;
+}
+
+.flex-nowrap-ns{
+        flex-wrap:nowrap;
+    }
+
+.flex-wrap{
+    flex-wrap:wrap;
+}
+
+.ph4-ns{
+       padding-left:2rem;
+        padding-right:2rem;
+    }
+
+.ph3{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+.w-25-ns{
+        width:25%;
+    }
+
+.w-75{
+    width:75%
+}
+
+.iris-logo svg{
+    width:94px;
+}
+
+.mb3 {
+      margin-bottom:1rem;
+
+}
+
+.mt0{
+    margin-top:0;
+}
+
+.f7{
+    font-size:.875rem;
+}
+
+    .db-ns{
+        display:block;
+    }
+
+    .dn{
+    display:none;
+}
+
+.w-50-ns{
+   width:50%; 
+}
+
+.w-100{
+   width:100%; 
+}
+
+.mla{
+    margin-left:auto;
+}
+
+.w-third-ns{
+        width:33.33333%;
+      }
+
+.f5 {
+  font-size:1rem;
+}
+
+.mb0-ns{
+        margin-bottom:0;
+    }
+
+.mb4{
+    margin-bottom:2rem;
+}
+
+.fw5{
+    font-weight:500;
+}
+
+.mt0{
+    margin-top:0;
+}
+
+.mb2 {    
+  margin-bottom:.5rem;
+}
+
+.w-two-thirds-ns{
+          width:66.66667%; 
 }
