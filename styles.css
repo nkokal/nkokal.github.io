@@ -121,39 +121,7 @@ top: 200px;}
 /* Buttons at the top */
 
 
-.titlebar-insights {
-  position: relative;
-width: 126px;
-height: 42px;
-left: 620px;
-top: 29px;
 
-font-family: futura, helvetica;
-font-style: normal;
-font-weight: 450;
-line-height: normal;
-font-size: 35px;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.titlebar-vision {
-position: relative;
-width: 96px;
-height: 42px;
-left: 804px;
-top: 29px;
-
-font-family: futura, helvetica;
-font-style: normal;
-font-weight: 450;
-line-height: normal;
-font-size: 35px;
-text-align: center;
-
-color: #FFFFFF;
-}
  /* Call to Action Buttons */
 
 
