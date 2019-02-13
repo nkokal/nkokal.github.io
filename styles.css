@@ -22,18 +22,18 @@ left: 0px;
 
 .logo {
 padding: 3%;
-width: 221px;
+width: auto;
 height: 101px;
 left: 42px;
 }
 
 /* The Words You Say Matter */
 .catchphrase{
-  position: absolute;
+  position: relative;
 width: 619px;
 height: 86px;
-left: calc(50% - 619px/2 - 266.5px);
-top: 336px;
+top: 100px;
+left: 50px;
 
 font-family: futura,sans-serif;
 font-style: normal;
@@ -109,7 +109,7 @@ border: 1px solid #82757B;
 
 .how-it-works {
 background-color: white;
-width: 100%;
+width: auto;
 overflow: auto;
 }
 
@@ -505,13 +505,12 @@ margin-top: 150px;
 
 @media screen and (min-width: 750px){
   .pv5-ns
-  {    padding-top: 5rem;
+  {    padding-top: 8rem;
     padding-bottom: 5rem;
 }
 }
 
 .pv4{
-    padding-top:2rem;
     padding-bottom:2rem;
         box-sizing: border-box;
            
@@ -553,10 +552,7 @@ margin-top: 150px;
     padding-right: 2rem;
   }
 }
-@media screen and (min-width: 750px){
-  .w-25-ns {
-    width: 25%; }
-}
+
 
 .mb4{
     margin-bottom:2rem;
