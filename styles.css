@@ -313,17 +313,7 @@ color: #000028;
 padding: 40px;
 }
 
-button {
-  margin-top: -150px; 
-  margin-left: 1000px; 
-  display: inline-block;
-  height: 50px;
-  padding: 0;
-  width: 50px;
-  background-color: white;
-  border-color: white;
-  outline: none;
-}
+
 
 #close-image1 img {
   margin-top: -20px;
