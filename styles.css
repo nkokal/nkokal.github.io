@@ -50,7 +50,7 @@ color: #FDD457;
 
 
 .titlebar-insights {
-  position: absolute;
+  position: relative;
 width: 126px;
 height: 42px;
 left: 620px;
@@ -67,7 +67,7 @@ color: #FFFFFF;
 }
 
 .titlebar-vision {
-position: absolute;
+position: relative;
 width: 96px;
 height: 42px;
 left: 804px;
