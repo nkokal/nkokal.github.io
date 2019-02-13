@@ -1,14 +1,18 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */html 
 {
-  font-family: sans-serif;
+  font-family: futura, helvetica;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-html,body{
-  margin: 0;
-  padding: 0;
-  }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 .intro {  
 width: 100%;
 height: 850px;
