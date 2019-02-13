@@ -84,27 +84,7 @@ color: #FFFFFF;
 }
  /* Call to Action Buttons */
 
-.CTA1 {
-  position: absolute;
-width: 273px;
-height: 67px;
-left: 1109px;
-top: 29px;
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-background: #FDD457;
-border-radius: 6px;
-font-family: futura, helvetica;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 25.1387px;
-border: 1px solid #82757B;
 
-}
 /* Section 2 */
 
 .how-it-works {
