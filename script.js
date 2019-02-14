@@ -5,7 +5,7 @@
  */
 class API {
   constructor() {
-    this.url = "https://damp-plateau-89390.herokuapp.com/api/v1";
+    this.url = "https://the-iris-api.herokuapp.com/api/v1";
   }
 
   get(path, callback = function() {}) {
@@ -40,4 +40,7 @@ function submitTextData() {
   const payload = { text: document.querySelector(".textInputBox").value };
 
   api.post("/data", JSON.stringify(payload));
+  api.post("/data/analyze", JSON.stringify(payload), function(data) {
+    console.log(data)
+  })
 }
