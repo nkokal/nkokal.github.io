@@ -354,16 +354,13 @@ padding: 40px;
 }
 
 button {
-  position: relative;
-  margin-top: -150px; 
-  margin-left: 1000px; 
   display: inline-block;
   height: 50px;
-  padding: 0;
   width: 50px;
   background-color: white;
   border-color: white;
   outline: none;
+  padding: 2rem;
 }
 
 
@@ -390,7 +387,7 @@ border: 1px solid #BEBCBC;
 }
 
 #close-image2 img {
-  margin-top: -20px;
+margin-top: -20px;
   display: block;
   height: 25px;  
   width: 50px;
@@ -718,7 +715,7 @@ a {
 input.pa3, input.hs-input, textarea.pa3, textarea.hs-input {
     padding: 9px;
 }
-html, body, div, article, section, main, footer, header, form, fieldset, legend, pre, code, a, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, textarea, table, td, th, tr, input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="text"], input[type="url"], .border-box {
+html, body, div, article, section, main, footer, header, form, fieldset, legend, pre, code, a,  h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, textarea, table, td, th, tr, input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="text"], input[type="url"], .border-box {
     /* box-sizing: border-box; */
 }
 .pa3, .hs-input {
