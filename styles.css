@@ -121,6 +121,12 @@ color: #FDD457;
 position: relative;
 top: 100px;}
 
+
+.wrapper {
+  max-width: 1200px;
+  margin:0 auto;
+}
+
  /* Call to Action Buttons */
 
 
@@ -409,7 +415,7 @@ padding: 20px;
 font-family: futura, helvetica;
 font-style: normal;
 font-weight: 250;
-font-size: 65px;
+font-size: 50px;
 text-align: left;
 color: #000028;
 padding: 40px;
