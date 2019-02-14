@@ -157,8 +157,8 @@ top: 100px;}
 
 .signupbuttons{
 
-color: white;
-background: #FDD457;
+    color: white;
+    background: #FDD457;
     height:auto;
     width: auto;
     margin-right: 4px;
@@ -181,7 +181,7 @@ background: #FDD457;
     font-size: 100%;
     font-weight: 500;
 
-      }
+    }
 
 
 
@@ -417,21 +417,21 @@ padding: 40px;
 
 button {
   display: inline-block;
-  height: 50px;
+  height: auto;
   width: 50px;
   background-color: white;
   border-color: white;
   outline: none;
-  padding: 2rem;
+  padding: 3rem;
+  border: 0;  
+  -webkit-appearance: none;
 }
 
 
 #close-image1 img {
-  margin-top: -20px;
-  display: block;
   height: 25px;  
-  width: 50px;
-  outline: none;
+  margin-top: -40px;
+
 }
 
 #care {
