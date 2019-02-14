@@ -22,7 +22,7 @@ class API {
   post(path, body, callback = function() {}) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() { 
-      console.log("here", xmlHttp)
+      console.log("here", xmlHttp, callback, xmlHttp.readyState === 4 && xmlHttp.status === 200)
       if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
         callback(xmlHttp.responseText);
       }
