@@ -38,7 +38,7 @@ const api = new API();
 function submitEmail() {
   const payload = { email: document.getElementById("js-input-form-email").value };
 
-  api.post("/email", JSON.stringify(payload));
+  api.post("/emails", JSON.stringify(payload));
 }
 
 
