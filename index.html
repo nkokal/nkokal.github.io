@@ -135,7 +135,10 @@
 			<button id = "close-image2" onclick="myFunction1()"> <img src="https://i.ibb.co/TbqcHRh/img-356879.png">
     		</button> </div> 
 		<p id="communicate"></p>
-		<script> function myFunction1() { document.getElementById("communicate").innerHTML;}
+		<script> function myFunction1() { var x = document.getElementById("communicate");
+				if (x.style.display === "none") 
+					{x.style.display = "block";} 
+				else { x.style.display = "none";} } 
 			</script>
 		<hr class="line">
 		</div>
