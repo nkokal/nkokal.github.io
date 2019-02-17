@@ -35,6 +35,12 @@ class API {
 
 const api = new API();
 
+function submitEmail() {
+  const payload = { email: document.getElementById("js-input-form-email").value };
+
+  api.post("/emails", JSON.stringify(payload));
+}
+
 
 function submitTextData() {
   const payload = { text: document.querySelector(".textInputBox").value };
