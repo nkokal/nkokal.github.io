@@ -120,8 +120,11 @@
 		<div>
 			<div class="insight1 justify-center">  <a class ="flex-1">What They Care About</a> 
 			<button id = "close-image1" onclick="myFunction()"> <img src="https://i.ibb.co/TbqcHRh/img-356879.png">
-    		</button> </div> 	<p id="care"></p>
-		<script> function myFunction() { document.getElementById("care").innerHTML;}
+    		</button> </div> <p id="care"></p>
+		<script> function myFunction() { var x = document.getElementById("care"); 
+				if (x.style.display === "none") 
+					{x.style.display = "block";} 
+				else { x.style.display = "none";} } 
 			</script>
 		<hr class="line">
 		</div>
@@ -132,7 +135,7 @@
 			<button id = "close-image2" onclick="myFunction1()"> <img src="https://i.ibb.co/TbqcHRh/img-356879.png">
     		</button> </div> 
 		<p id="communicate"></p>
-		<script> function myFunction1() { document.getElementById("communicate").innerHTML = "They are very organized and accurate people. They speak with a high degree of focus, and can get their points across very clearly. They tend to be direct and logical, and work hard to keep their emotions under control. If they’re upset, they will often swallow their emotions, especially if they’re in a public setting, but will let it out later, when they’re on their own. They also tend to be very warm, sympathetic people, who are ultimately very kind-hearted.";}
+		<script> function myFunction1() { document.getElementById("communicate").innerHTML;}
 			</script>
 		<hr class="line">
 		</div>
@@ -142,7 +145,7 @@
 			<button id = "close-image3" onclick="myFunction2()"> <img src="https://i.ibb.co/TbqcHRh/img-356879.png">
     		</button> </div> 
 		<p id="decisions"></p>
-		<script> function myFunction2() { document.getElementById("decisions").innerHTML = "When faced with a problem or challenge, they often feel overwhelmed, as if the task at hand is too large, or will require superhuman effort to overcome. However, since they are responsible by nature, they will often take on challenges single-handedly, and will stretch themselves beyond their limits in order to achieve their goals. For them, success brings order, while failure amplifies their inner sense of chaos. They tend to be perfectionists, and will really take their time to analyze a situation from every possible angle before making a decision.";}
+		<script> function myFunction2() { document.getElementById("decisions").innerHTML;}
 			</script>
 		<hr class="line">
 		</div>
@@ -152,7 +155,7 @@
 			<button id = "close-image4" onclick="myFunction3()"> <img src="https://i.ibb.co/TbqcHRh/img-356879.png">
     		</button> </div> 
 		<p id="affection"></p>
-		<script> function myFunction3() { document.getElementById("affection").innerHTML = "They can be very selfless, and go out of their way to take on other people’s problems. As a partner, they will try their best to be perfect for you, taking the time to listen to you, and helping you solve any problems that come up in your life. They are typically very direct and straightforward, but can be very caring and tender as well. They are especially kind and sweet if they sense that you are upset, and will go out of their way to make you feel better.";}
+		<script> function myFunction3() { document.getElementById("affection").innerHTML;}
 			</script>
 		<hr class="line">
 		</div>
@@ -163,7 +166,7 @@
 			<button id = "close-image5" onclick="myFunction4()"> <img src="https://i.ibb.co/TbqcHRh/img-356879.png">
     		</button> </div> 
 		<p id="happy"></p>
-		<script> function myFunction4() { document.getElementById("happy").innerHTML = "They are happiest with partners who let them take control in the relationship, from planning dates, to handling details when traveling together. It’s not that they want to have their way all the time. In fact, they are very selfless, and will want to do what makes you happy, but they prefer to handle the planning process, because being in control helps calm their inner sense of chaos. They are also very sensitive to being reprimanded or embarrassed in public. The worst thing you can do is to create a scene or fight with them in front of other people.";}
+		<script> function myFunction4() { document.getElementById("happy").innerHTML;}
 			</script>
 		<hr class="line">
 		</div>
@@ -174,7 +177,7 @@
 			<button id = "close-image6" onclick="myFunction5()"> <img src="https://i.ibb.co/TbqcHRh/img-356879.png">
     		</button> </div> 
 		<p id="date"></p>
-		<script> function myFunction5() { document.getElementById("date").innerHTML = "They will typically enjoy dates they organize themselves. If you want to plan something for them, or surprise them, make sure it’s well-prepared and organized. They also tend to be ambitious people, who like to push and challenge themselves, so they will enjoy dates that involve some sort of activity or achievement. Playing games, trying something new or learning a new skill are all great options. They are also rather sentimental and responsive to art, music, dancing and beautiful scenery. They enjoy romantic scenes, like walking along the beach, or in the rain, and are moved by nature and plants.";}
+		<script> function myFunction5() { document.getElementById("date").innerHTML;}
 			</script>
 		</div>
 
